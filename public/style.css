@@ -1,0 +1,45 @@
+body {
+  background-color: linen;
+font-family: 'Quicksand', sans-serif;
+  color: teal;
+  font-size: 1.2rem;
+}
+h1 {
+  text-align: center;
+  margin: 4rem;
+  color: teal;
+}
+form {
+  text-align: center;
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}
+input {
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+}
+::placeholder {
+  color: gainsboro;
+}
+input, label {
+  display: block;
+  width: 100%;
+}
+label {
+  text-align: left;
+  color: teal;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+input[type="submit"] {
+  color: ivory;
+  background-color: teal;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem;
+  width: 100%;
+  overflow: hidden;
+  font-size: 1.2rem;
+}
