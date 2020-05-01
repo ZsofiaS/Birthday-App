@@ -1,0 +1,5 @@
+<% if @date.birthday? == true %>
+<h1>Happy birthday <%= @name %>!</h1>
+<% else %>
+<h1>Your birthday is in <%= @date.calculate_days %> days, <%= @name %></h1>
+<% end %>
